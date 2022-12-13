@@ -1,9 +1,9 @@
 {
   "publisher": "wumo1016",
   "name": "i18n-pro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "i18n pro",
-  "description": "🌍 A fork version of i18n-ally for add translate with OpenCC.",
+  "description": "🌍 A fork version of i18n-ally for add translate.",
   "keywords": [
     "vue",
     "vue-i18n",
