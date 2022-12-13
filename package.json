@@ -1,9 +1,9 @@
 {
   "publisher": "wumo1016",
-  "name": "i18n-ally",
-  "version": "0.0.1",
+  "name": "i18n-pro",
+  "version": "1.0.0",
   "displayName": "i18n pro",
-  "description": "🌍 All in one i18n extension for VS Code",
+  "description": "🌍 A fork version of i18n-ally for add translate with OpenCC.",
   "keywords": [
     "vue",
     "vue-i18n",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lokalise/i18n-ally"
+    "url": "https://github.com/wumo1016/i18n-pro.git"
   },
   "main": "./dist/extension",
   "scripts": {
-    "release": "nr release:patch",
+    "release": "nr release:patch && yarn build && vsce publish",
     "release:minor": "standard-version --release-as minor && git push --follow-tags",
     "release:patch": "standard-version --release-as patch && git push --follow-tags",
     "gh:release": "conventional-github-releaser -p angular",
@@ -39,7 +39,7 @@
     "test:fixture": "rimraf test/fixture-scripts-out && tsc -p test/fixture-scripts && cross-env I18N_ALLY_ENV=test node ./test/fixture-scripts-out/index.js",
     "test:unit": "cross-env I18N_ALLY_ENV=test ts-mocha -p test/unit/tsconfig.json --file test/unit/setup.ts test/unit/**/*.test.ts test/unit/**/**/*.test.ts",
     "test:update": "cross-env CHAI_JEST_SNAPSHOT_UPDATE_ALL=true nr test:unit",
-    "pub": "vsce publish --yarn"
+    "pck":''
   },
   "dependencies": {
     "@babel/parser": "^7.15.3",
@@ -62,6 +62,7 @@
     "lodash": "^4.17.21",
     "micromatch": "^4.0.4",
     "nanoid": "^3.1.25",
+    "opencc-js": "^1.0.5",
     "parse-gitignore": "^1.0.1",
     "pofile": "^1.1.1",
     "properties": "^1.2.1",
@@ -1020,7 +1021,8 @@
               "google",
               "google-cn",
               "deepl",
-              "libretranslate"
+              "libretranslate",
+              "opencc"
             ]
           },
           "default": [

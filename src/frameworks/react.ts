@@ -1,13 +1,14 @@
-import { I18nextFramework } from './i18next'
+import { Framework } from './base'
 import { LanguageId } from '~/utils'
 
-class ReactI18nextFramework extends Framework {
-  id= 'react-i18next'
+class ReactFramework extends Framework {
+  id= 'react'
   display= 'React'
 
   detection= {
     packageJSON: [
       'react-i18next',
+      'react-intl',
       'next-i18next',
     ],
   }
@@ -24,6 +25,8 @@ class ReactI18nextFramework extends Framework {
   usageMatchRegex = [
     // general jsx attrs
     '[^\\w\\d](?:i18nKey=|FormattedMessage[ (]\\s*id=|t\\(\\s*)[\'"`]({key})[\'"`]',
+    // useIntl() hooks, https://github.com/formatjs/react-intl/blob/master/docs/API.md#useintl-hook
+    '[^\\w\\d](?:formatPlural|formatNumber|formatDate|formatTime|formatHTMLMessage|formatMessage|formatRelativeTime)\\(.*?[\'"`]?id[\'"`]?:\\s*[\'"`]({key})[\'"`]',
     '<Trans>({key})<\\/Trans>',
   ]
 
@@ -36,4 +39,4 @@ class ReactI18nextFramework extends Framework {
   }
 }
 
-export default ReactI18nextFramework
+export default ReactFramework
