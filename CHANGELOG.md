@@ -1,9 +1,10 @@
 # Changelog
 
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+### 2.8.2 (2022-12-24)
+### ⚡ Features
+* Added Baidu Translation support
 
 ### [2.8.1](https://github.com/lokalise/i18n-ally/compare/v2.8.0...v2.8.1) (2021-09-13)
-
 
 ### 🐞 Bug Fixes
 
