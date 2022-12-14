@@ -1,9 +1,12 @@
 # Changelog
 
+### 2.8.3 (2022-12-24)
+### ⚡ Features
+* 添加百度翻译接口调用频率配置
+
 ### 2.8.2 (2022-12-24)
 ### ⚡ Features
-* Added Baidu Translation support
-
+* 添加百度翻译支持
 ### [2.8.1](https://github.com/lokalise/i18n-ally/compare/v2.8.0...v2.8.1) (2021-09-13)
 
 ### 🐞 Bug Fixes

@@ -536,6 +536,10 @@ export class Config {
       .update(key, value, isGlobal)
   }
 
+  static get baudiApiInterval() {
+    return this.getConfig<number | null | undefined>('translate.baidu.apiInterval')
+  }
+
   static get baiduApiSecret() {
     return this.getConfig<string | null | undefined>('translate.baidu.apiSecret')
   }
