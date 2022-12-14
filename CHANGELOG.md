@@ -2,20 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [2.8.3](https://github.com/lokalise/i18n-ally/compare/v2.8.2...v2.8.3) (2022-11-17)
-
-### [2.8.2](https://github.com/lokalise/i18n-ally/compare/v2.8.1...v2.8.2) (2022-11-08)
-
-
-### 🐞 Bug Fixes
-
-* i18next greedy namespace regex ([533d16a](https://github.com/lokalise/i18n-ally/commit/533d16a32dc90ab27c4c6743c164a0c69d1533be))
-
-
-### ⚡ Features
-
-* Add OpenCC translate engine for Chinese. ([2a472df](https://github.com/lokalise/i18n-ally/commit/2a472df0aa93fa601c0ec17ac4a6ca80259b34a2))
-
 ### [2.8.1](https://github.com/lokalise/i18n-ally/compare/v2.8.0...v2.8.1) (2021-09-13)
 
 

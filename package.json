@@ -3,7 +3,7 @@
   "name": "i18n-pro",
   "version": "1.0.1",
   "displayName": "i18n pro",
-  "description": "🌍 A fork version of i18n-ally for add translate.",
+  "description": "🌍 A fork version of i18n-ally for add translate Baidu.",
   "keywords": [
     "vue",
     "vue-i18n",
@@ -17,7 +17,7 @@
   },
   "main": "./dist/extension",
   "scripts": {
-    "release": "nr release:patch && yarn build && vsce publish",
+    "release": "nr release:patch",
     "release:minor": "standard-version --release-as minor && git push --follow-tags",
     "release:patch": "standard-version --release-as patch && git push --follow-tags",
     "gh:release": "conventional-github-releaser -p angular",
@@ -63,7 +63,6 @@
     "lodash": "^4.17.21",
     "micromatch": "^4.0.4",
     "nanoid": "^3.1.25",
-    "opencc-js": "^1.0.5",
     "parse-gitignore": "^1.0.1",
     "pofile": "^1.1.1",
     "properties": "^1.2.1",
@@ -1023,7 +1022,7 @@
               "google-cn",
               "deepl",
               "libretranslate",
-              "opencc"
+              "baidu"
             ]
           },
           "default": [
@@ -1055,6 +1054,16 @@
           "type": "string",
           "default": null,
           "description": "%config.deepl_api_key%"
+        },
+        "i18n-ally.translate.baidu.appid": {
+          "type": "string",
+          "default": null,
+          "description": "%config.baidu_appid%"
+        },
+        "i18n-ally.translate.baidu.apiSecret": {
+          "type": "string",
+          "default": null,
+          "description": "%config.baidu_app_secret%"
         },
         "i18n-ally.translate.deepl.enableLog": {
           "type": "boolean",
