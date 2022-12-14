@@ -45,6 +45,7 @@ export default class BaiduTranslate extends TranslateEngine {
   }
 
   convertToSupportedLocalesForGoogleCloud(locale: string): string {
+    if (locale === 'ja') return 'jp'
     return locale.replace(/-/g, '_').split('_')[0]
   }
 
@@ -76,7 +77,7 @@ export default class BaiduTranslate extends TranslateEngine {
       })
       r.result = result
     }
-    catch (e) {}
+    catch (e) { }
 
     if (!r.result) r.error = new Error((`[${response.error_code}] ${response.error_msg}`) || 'No result')
 
