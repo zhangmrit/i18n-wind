@@ -1065,6 +1065,11 @@
           "default": null,
           "description": "%config.baidu_app_secret%"
         },
+        "i18n-ally.translate.baidu.apiInterval": {
+          "type": "number",
+          "default": 1200,
+          "description": "%config.baidu_api_interval%"
+        },
         "i18n-ally.translate.deepl.enableLog": {
           "type": "boolean",
           "default": false,

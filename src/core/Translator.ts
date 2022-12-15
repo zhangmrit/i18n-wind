@@ -147,7 +147,7 @@ export class Translator {
         const engines = Config.translateEngines
         if (engines.length === 1 && engines[0] === 'baidu') {
           await new Promise((r, j) => {
-            const baudiApiInterval = Config.baudiApiInterval || 1000
+            const baudiApiInterval = Config.baudiApiInterval || 1200
             jobs.forEach((job, i) => {
               setTimeout(async () => {
                 const res = await doJob(job)

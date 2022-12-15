@@ -39,6 +39,7 @@
   "config.auto_detection": "",
   "config.baidu_app_secret": "百度平台分配的密钥",
   "config.baidu_appid": "百度平台APPID",
+  "config.baidu_api_interval": "百度平台API调用频率",
   "config.deepl_api_key": "",
   "config.deepl_log": "",
   "config.deepl_use_free_api_entry": "",
