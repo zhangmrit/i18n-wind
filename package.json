@@ -1,8 +1,8 @@
 {
-  "publisher": "wumo1016",
-  "name": "i18n-pro",
-  "version": "2.8.4",
-  "displayName": "i18n pro",
+  "publisher": "zhangmrit",
+  "name": "i18n-ally-wind",
+  "version": "2.8.5",
+  "displayName": "i18n ally wind",
   "description": "🌍 A fork version of i18n-ally for add translate Baidu.",
   "keywords": [
     "vue",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wumo1016/i18n-pro.git"
+    "url": "https://github.com/zhangmrit/i18n-wind.git"
   },
   "main": "./dist/extension",
   "scripts": {
