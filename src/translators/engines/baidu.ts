@@ -46,6 +46,8 @@ export default class BaiduTranslate extends TranslateEngine {
 
   convertToSupportedLocalesForGoogleCloud(locale: string): string {
     if (locale === 'ja') return 'jp'
+    if (locale === 'es') return 'spa'
+    if (locale === 'ko') return 'kor'
     return locale.replace(/-/g, '_').split('_')[0]
   }
 
