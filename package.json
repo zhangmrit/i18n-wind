@@ -1,7 +1,7 @@
 {
   "publisher": "wumo1016",
   "name": "i18n-pro",
-  "version": "2.8.4",
+  "version": "2.8.5",
   "displayName": "i18n pro",
   "description": "🌍 A fork version of i18n-ally for add translate Baidu.",
   "keywords": [
@@ -39,7 +39,7 @@
     "test:fixture": "rimraf test/fixture-scripts-out && tsc -p test/fixture-scripts && cross-env I18N_ALLY_ENV=test node ./test/fixture-scripts-out/index.js",
     "test:unit": "cross-env I18N_ALLY_ENV=test ts-mocha -p test/unit/tsconfig.json --file test/unit/setup.ts test/unit/**/*.test.ts test/unit/**/**/*.test.ts",
     "test:update": "cross-env CHAI_JEST_SNAPSHOT_UPDATE_ALL=true nr test:unit",
-    "pck": "vsce package --yarn",
+    "pck": "yarn build && vsce package --yarn",
     "pub": "yarn build && vsce publish --yarn"
   },
   "dependencies": {
