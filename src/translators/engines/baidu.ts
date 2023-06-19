@@ -48,6 +48,7 @@ export default class BaiduTranslate extends TranslateEngine {
     if (locale === 'ja') return 'jp'
     if (locale === 'es') return 'spa'
     if (locale === 'ko') return 'kor'
+    if (locale === 'zh-TW') return 'cht'
     return locale.replace(/-/g, '_').split('_')[0]
   }
 
