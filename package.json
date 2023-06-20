@@ -1,7 +1,7 @@
 {
   "publisher": "zhangmrit",
   "name": "i18n-ally-wind",
-  "version": "2.8.7",
+  "version": "2.8.8",
   "displayName": "i18n ally wind",
   "description": "🌍 A fork version of i18n-ally for add translate Baidu.",
   "keywords": [
@@ -40,7 +40,7 @@
     "test:unit": "cross-env I18N_ALLY_ENV=test ts-mocha -p test/unit/tsconfig.json --file test/unit/setup.ts test/unit/**/*.test.ts test/unit/**/**/*.test.ts",
     "test:update": "cross-env CHAI_JEST_SNAPSHOT_UPDATE_ALL=true nr test:unit",
     "pck": "vsce package --yarn",
-    "pub": "yarn build && vsce publish --yarn"
+    "pub": "rm -rf dist && yarn build && vsce publish --yarn"
   },
   "dependencies": {
     "@babel/parser": "^7.15.3",

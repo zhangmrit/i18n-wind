@@ -4,7 +4,6 @@ import axios from 'axios'
 import qs from 'qs'
 import TranslateEngine, { TranslateOptions, TranslateResult } from './base'
 import { Config } from '~/core'
-import { Log } from '~/utils'
 
 interface BaiduSignOptions {
   appid: string | null | undefined
@@ -46,11 +45,10 @@ export default class BaiduTranslate extends TranslateEngine {
   }
 
   convertToSupportedLocalesForGoogleCloud(locale: string): string {
-    Log.info(`origin to language code: "${locale}"`)
     if (locale === 'ja') return 'jp'
     if (locale === 'es') return 'spa'
     if (locale === 'ko') return 'kor'
-    if (locale === 'zh_TW' || locale ==='zh-TW') return 'cht'
+    if (locale === 'zh-TW') return 'cht'
     return locale.replace(/-/g, '_').split('_')[0]
   }
 
