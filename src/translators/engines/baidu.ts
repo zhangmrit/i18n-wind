@@ -1,4 +1,3 @@
-
 import crypto from 'crypto'
 import axios from 'axios'
 import qs from 'qs'
@@ -77,7 +76,7 @@ export default class BaiduTranslate extends TranslateEngine {
       })
       r.result = result
     }
-    catch (e) { }
+    catch (e) {}
 
     if (!r.result) r.error = new Error((`[${response.error_code}] ${response.error_msg}`) || 'No result')
 
