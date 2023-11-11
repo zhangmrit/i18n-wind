@@ -1,9 +1,9 @@
 {
-  "publisher": "lokalise",
-  "name": "i18n-ally",
+  "publisher": "wumo1016",
+  "name": "i18n-pro",
   "version": "2.8.8",
   "displayName": "i18n pro",
-  "description": "🌍 All in one i18n extension for VS Code",
+  "description": "🌍 A fork version of i18n-ally",
   "keywords": [
     "vue",
     "vue-i18n",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lokalise/i18n-ally"
+    "url": "https://github.com/wumo1016/i18n-pro.git"
   },
   "main": "./dist/extension",
   "scripts": {
