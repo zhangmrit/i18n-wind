@@ -91,6 +91,7 @@
   "config.sort_keys": "Sortera nycklar vid sparning till JSON/YAML",
   "config.source_language": "Källspråk för maskinöversättning",
   "config.tab_style": "Tab-stil för locale-filer",
+  "config.target_picking_strategy": "Strategi att använda när flera locale-filer hittats.",
   "config.target_picking_strategy.file-previous": "Extrahera text till nuvarande fils tidigare valda locale-fil",
   "config.target_picking_strategy.global-previous": "Extrahera text till (nuvarande elle annan) fils tidigare valda locale-fil",
   "config.target_picking_strategy.most-similar": "Extrahera text automatiskt till den fil vars sökväg mest stämmer överens med nuvarande filens sökväg",

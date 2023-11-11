@@ -93,6 +93,7 @@
   "config.sort_locale": "Locale to with if locale sort is used (will use the file's own locale if not specified)",
   "config.source_language": "Source language for machine translation",
   "config.tab_style": "Tab style for locale files",
+  "config.target_picking_strategy": "Strategy dealing with more than one locale files were found.",
   "config.target_picking_strategy.file-previous": "Extract text to current file's previous selected locale file",
   "config.target_picking_strategy.global-previous": "Extract text to (current or other) file 's previous selected locale file",
   "config.target_picking_strategy.most-similar": "Automatically extract text to the file which path most matches to current file's path",

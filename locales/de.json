@@ -91,6 +91,7 @@
   "config.sort_keys": "Schlüssel beim speichern von JSON/YAML sortierne",
   "config.source_language": "Quellsprache für machinelle Übersetzung",
   "config.tab_style": "Tabulatorstil",
+  "config.target_picking_strategy": "Es wurde eine Strategie gefunden, die mit mehr als einer Lokalisierungsdatei arbeitet.",
   "config.target_picking_strategy.file-previous": "Text in die zuvor ausgewählte Sprachdatei der aktuellen Datei extrahieren",
   "config.target_picking_strategy.global-previous": "Text in die aktuell ausgewähle Datei extrahieren",
   "config.target_picking_strategy.most-similar": "Automatisches Extrahieren von Text in die Datei, deren Pfad am meisten mit dem Pfad der aktuellen Datei übereinstimmt",

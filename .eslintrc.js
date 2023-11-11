@@ -1,11 +1,9 @@
 module.exports = {
-  "root": true,
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
+  env: {
+    es6: true,
+    browser: true,
+    node: true,
+    mocha: true,
   },
-  "plugins": ["@typescript-eslint"],
-  "rules": {},
-  "ignorePatterns": ["out", "dist", "**/*.d.ts"]
+  extends: '@antfu',
 }

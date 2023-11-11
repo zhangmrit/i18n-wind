@@ -16,7 +16,6 @@ class ReactI18nextFramework extends Framework {
   detection = {
     packageJSON: [
       'react-i18next',
-      'react-intl',
       'next-i18next',
     ],
   }
@@ -188,4 +187,4 @@ class ReactI18nextFramework extends Framework {
   }
 }
 
-export default ReactFramework
+export default ReactI18nextFramework

@@ -91,6 +91,7 @@
   "config.sort_keys": "JSON/YAML dosyasına kaydederken çeviri anahtarlarını diz",
   "config.source_language": "Makine çevirisi için kaynak dil",
   "config.tab_style": "Dil dosyaları için Tab stili",
+  "config.target_picking_strategy": "Birden fazla dil dosyası bulunduğunda uygulanacak strateji",
   "config.target_picking_strategy.file-previous": "Metni mevcut dosyanın önceki seçili dil dosyasına çıkartın",
   "config.target_picking_strategy.global-previous": "Metni (mevcut veya başka) dosyanın önceki seçili yerel ayar dosyasına çıkartın",
   "config.target_picking_strategy.most-similar": "Geçerli dosyanın bulunduğu alana en çok uyan yolu dosyaya otomatik olarak ayıklayın",
