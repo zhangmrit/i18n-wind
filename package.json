@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wumo1016/i18n-pro.git"
+    "url": "https://github.com/zhangmrit/i18n-wind"
   },
   "main": "./dist/extension",
   "scripts": {
@@ -170,8 +170,8 @@
     "onLanguage:svelte"
   ],
   "icon": "res/logo.png",
-  "homepage": "https://github.com/lokalise/i18n-ally",
-  "bugs": "https://github.com/lokalise/i18n-ally/issues",
+  "homepage": "https://github.com/zhangmrit/i18n-wind",
+  "bugs": "https://github.com/zhangmrit/i18n-wind/issues",
   "contributes": {
     "commands": [
       {
