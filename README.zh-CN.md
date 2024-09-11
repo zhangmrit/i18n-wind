@@ -7,9 +7,10 @@
 </p>
 
 <p align="center">
-<a href="https://marketplace.visualstudio.com/items?itemName=wumo1016.i18n-pro" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lokalise.i18n-ally.svg?color=blue&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=wumo1016.i18n-pro" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/d/lokalise.i18n-ally.svg?color=4bdbe3" alt="Visual Studio Marketplace Downloads" /></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=wumo1016.i18n-pro" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/i/lokalise.i18n-ally.svg?color=63ba83" alt="Visual Studio Marketplace Installs" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/lokalise.i18n-ally.svg?color=blue&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/d/lokalise.i18n-ally.svg?color=4bdbe3" alt="Visual Studio Marketplace Downloads" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/i/lokalise.i18n-ally.svg?color=63ba83" alt="Visual Studio Marketplace Installs" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally" target="__blank"><img src="https://vsmarketplacebadge.apphb.com/trending-monthly/lokalise.i18n-ally.svg?color=a1b858" alt="Marketplace Trending Monthly" /></a>
 <br/>
 <a href="https://github.com/lokalise/i18n-ally/wiki" target="__blank"><img alt="Wiki" src="https://img.shields.io/static/v1?label=docs&message=wiki&color=e3897b"></a>
 <a href="https://github.com/lokalise/i18n-ally" target="__blank"><img src="https://img.shields.io/github/last-commit/lokalise/i18n-ally.svg?color=c977be" alt="GitHub last commit" /></a>
@@ -113,6 +114,8 @@ Vue SFC 的支持来自于 vue-i18n 的作者 [kazupon](https://github.com/kazup
 
 ## 📄 License
 
-[MIT License](https://github.com/lokalise/i18n-ally/blob/master/LICENSE) © 2019-2020 [Anthony Fu](https://github.com/lokalise)
+[MIT License](https://github.com/lokalise/i18n-ally/blob/master/LICENSE) © 2021 年至今 [Lokalise Inc.](https://github.com/lokalise)
+
+MIT License © 2019-2020 [Anthony Fu](https://github.com/antfu)
 
 MIT License © 2018-2019 [think2011](https://github.com/think2011)
